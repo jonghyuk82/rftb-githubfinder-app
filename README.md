@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Installed packages
+
+- Tailwindcss (https://tailwindcss.com/docs/guides/create-react-app)
+  - npm install -D tailwindcss postcss autoprefixer
+  - npx tailwindcss init -p
+- daisyUI (https://daisyui.com/)
+  - npm i daisyui
+- npm i react-router-dom
+- npm i react-icons
