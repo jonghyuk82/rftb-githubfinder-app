@@ -78,3 +78,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - npm i daisyui
 - npm i react-router-dom
 - npm i react-icons
+- npm i axios

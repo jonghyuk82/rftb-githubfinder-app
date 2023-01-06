@@ -29,12 +29,16 @@ function UserResults() {
   //     setLoading(false);
   //   };
 
-  // WITH CONTEXT
-  const { users, loading, fetchUsers } = useContext(GithubContext);
+  // WITH CONTEXT, WITHOUT REDUCER
+  // const { users, loading, fetchUsers } = useContext(GithubContext);
 
-  useEffect(() => {
-    fetchUsers();
-  }, []);
+  // WITH REDUCER
+  const { users, loading } = useContext(GithubContext);
+
+  //  WITHOUT REDUCER
+  // useEffect(() => {
+  //   fetchUsers();
+  // }, []);
 
   if (!loading) {
     return (
