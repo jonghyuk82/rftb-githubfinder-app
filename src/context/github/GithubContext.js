@@ -1,4 +1,3 @@
-import { setSelectionRange } from "@testing-library/user-event/dist/utils";
 import { createContext, useState, useReducer } from "react";
 import githubReducer from "./GithubReducer";
 
@@ -116,8 +115,6 @@ export const GithubProvider = ({ children }) => {
   //   });
   // };
 
-  
-
   // // Clear users from state
   // const clearUsers = () => {
   //   dispatch({
@@ -131,7 +128,7 @@ export const GithubProvider = ({ children }) => {
   //     type: "SET_LOADING",
   //   });
 
-    // REFACTOR UP TO HERE
+  // REFACTOR UP TO HERE
 
   return (
     <GithubContext.Provider
